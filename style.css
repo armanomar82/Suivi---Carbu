@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: inherit; */
+}
+html{
+    font-size: 62%;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Lato",sans-serif;
+    font-size: 2rem;
+    background-color:#E8E5E5;
+    color: dimgrey;
+}
+header{
+    background-color: #165BFA;
+    color: #fff;
+    position: relative;
+    height: 20vh;
+    text-align: center;
+}
+.header__logo{
+    top: 2rem;
+    left: 5rem;
+    position: absolute;
+}
+.header__titl{
+    padding-top:5rem;
+}
+main{
+    width: 50vw;
+    margin: 0 auto;
+    
+}
+button {
+	font:bold 1.5rem Arial;
+	background:#165BFA;
+    color:#fff;
+    width:101%;
+    border:none;
+    padding: 2rem 0rem;
+
+}
+input{
+    padding:.5rem;
+    margin-bottom: 1.5rem;
+    border:1px solid hsla(222, 96%, 53%, 0.8);
+    width:100%;
+    height:4rem;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+table{
+    text-align :center;
+    padding: 1.5rem;
+    margin: 0 auto;
+    width: 50vw;
+    background-color: rgb(243, 243, 243);
+}
+table,th,td {
+    border: 1px solid #165BFA;
+    padding: 1.5rem;
+    border-collapse: collapse;
+}
+th{
+    padding: 1.5rem;
+    background-color: #165BFA;
+    color: #fff;
+}
+.main__link{
+    text-align: center;
+}
+.btn-blue{
+    background:#165BFA;
+    color:#fff;
+    display: inline-block;
+    width: 95%;
+    padding: 1.5rem;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 50%;
+    }
+    header{ 
+        height: 10vh;
+    }
+    .header__logo{
+        top: 15rem;
+        left: 40%;
+        position: absolute;
+    }
+    .header__titl{
+        padding-top:1rem;
+    }
+    main{
+        width: 80vw;
+        margin: 0 auto;
+        
+    }
+    .formulaire{
+        margin-top: 10rem;
+    }
+    table{
+        margin-top: 10rem;
+        width: 80vw;
+    }
+    .btn-blue{
+        width: 75vw;
+        
+    }
+
+    
+}
+
+
+
+
+
+
